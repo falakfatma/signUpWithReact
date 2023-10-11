@@ -6,15 +6,16 @@ export default function Signup() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
- const signUpHandler = (e) => {
+  const signUpHandler = (e) => {
     e.preventDefault();
-  
+    console.log(email, name, password);
+  }
   return (
     <form type="active" className='sign_Form'>
-      <input placeholder="Name"/>
-      <input placeholder="Email"/>
-      <input placeholder="Password"/>
+      <input placeholder="Name" value={name}/>
+      <input placeholder="Email" value={email}/>
+      <input placeholder="Password" value={password}/>
       <button className="btn" type="submit" onClick={signUpHandler}>Submit</button>
     </form>
-  );
+  )
 }
