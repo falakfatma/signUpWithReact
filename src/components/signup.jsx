@@ -12,9 +12,9 @@ export default function Signup() {
   }
   return (
     <form type="active" className='sign_Form'>
-      <input placeholder="Name" value={name}/>
-      <input placeholder="Email" value={email}/>
-      <input placeholder="Password" value={password}/>
+      <input placeholder="Name"  className="signup_Form_Items" value={name}/>
+      <input placeholder="Email" className="signup_Form_Items"  value={email}/>
+      <input placeholder="Password" className="signup_Form_Items"  value={password}/>
       <button className="btn" type="submit" onClick={signUpHandler}>Submit</button>
     </form>
   )

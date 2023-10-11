@@ -1,10 +1,9 @@
-export default function Image({src, alt, width, height}) {
+export default function Image({src, alt}) {
   return (
     <img
       src={src}
       alt={alt}
-      width={width}
-      height={height}
+      className="form_image"
     />
   );
 }
