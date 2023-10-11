@@ -1,7 +1,45 @@
+/* Main Page */
+.Main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  height: 100vh;
+  padding:2rem;
+}
+
+/* Form Page */
 .sign_Form{
   display:flex;
   flex-direction:column;
-  justify-content:center;
+  margin-bottom:2rem;
+  background:white;
+  padding:2rem;
+  height: 70vh;
+  border-radius:1rem;
+  width:30%;
+}
+.signup_Form_Items{
+  border-radius:.5rem;
+  padding:.5rem;
+  margin-bottom:2rem;
+  font-size:1.2rem;
+}
+.btn{
+  background-color:#f0f0f0;
+  border:none;
+  padding:.9rem;
+  font-size:1rem;
+  border-radius:1rem;
+  margin-top:1rem;
+  cursor:pointer;
+}
+.btn:hover{
+  background-color:#95befe;
+  color:white;
+}
+/* form_image */
+.form_image{
   width:50%;
-  margin:auto;
+  height: 90vh;
 }
